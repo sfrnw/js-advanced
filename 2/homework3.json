@@ -1,0 +1,5 @@
+﻿[
+  { "firstName": "Дмитрий", "lastName": "Бондарчук", "age": 28, "imageSmall": "images/image1_small.jpg", "imageBig": "images/image1_big.jpg"},
+  { "firstName": "Иван", "lastName": "Иванов", "age": 60 , "imageSmall": "images/image2_small.jpg", "imageBig": "images/image2_big.jpg"},
+  { "firstName": "Sergey", "lastName": "Petrov", "age": 33 , "imageSmall": "images/image3_small.jpg", "imageBig": "images/image3_big.jpg"}
+]
