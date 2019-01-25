@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title>HOMEWORK 3</title>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <form class="form" >
+        <div class="form_input">
+            <input name="name" id="applicationName" placeholder="enter name"  required/>
+        </div>
+        <div class="form_input">
+            <input type="tel" name="phone" placeholder="enter phone"  pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}" />
+            <span class="error">Example: +7(000)000-0000;</span>
+        </div>
+        <div class="form_input">
+            <input name="email" type="email" id="applicationEmail" placeholder="enter email" />
+            <span class="error">Example: mymail@mail.ru</span>
+        </div>
+        <div class="form_input">
+              <input name="text" type="text" id="applicationText" placeholder="enter text" required/>
+        </div>
+        <button class="applicationButton" type="submit" form="application" >Send</button>
+    </form>
+  </body>
+</html>
