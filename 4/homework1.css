@@ -1,0 +1,22 @@
+.class0 {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    position: relative;
+    }
+.class0 li {
+    position: relative;
+    text-align: center;
+    padding: 5px;
+}
+.class0 li:not(.active):hover {
+    background: lightcyan;
+
+}
+.class2 {
+    display: none;
+}
+.class2.active {
+    display: block;
+}
+
