@@ -6,7 +6,7 @@ $.ajax({
     success: function(data) {
         var amountCities = data.cities.length;
         for (var i = 0; i < amountCities; i++) {
-            var $option = $("<option></option>");
+            var $option = $("<option/>");
             $option.attr('value', data.cities[i]);
             $option.text(data.cities[i]);
             $select.append($option);
